@@ -1,11 +1,113 @@
-body { font-family: 'Oxygen', sans-serif;}
+
+/*defaults*/
+* {
+  box-sizing: border-box;
+}
+body { font-family: 'oxygen', sans-serif;}
+
 
 /* Header */
-#header-nav {
-background-color: silver;
-border-radius: 0px;
+
+.container-fluid {
+  background-color: silver;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+  border: none;
+  position: relative;
 }
 
-.navbar-header > .navbar-brand{
-color: black;
+.navbar-header  /* height of the nav bar */
+{
+  height: 70px;
+}
+
+#header-nav {
+background-color: silver;
+border: 0px;
+border-radius: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+.navbar-brand p{  /* Food LLC */
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 1.75em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#collapsable-nav  /* the collapsable menu */
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+#nav-list a
+{
+  color: black;
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+
+hr {
+  border-color: black;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.section {
+  background-color: silver;
+  margin: 15px;
+  border: 1px solid black;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+  margin: 0px
+  /*top: -21px; right: -1px;*/
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
